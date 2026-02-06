@@ -70,7 +70,23 @@ button.cancel {
 
 .modal {
   display: flex;
-  flex-direction: column;
   gap: 16px;
-  padding: 24px;
+  padding: 16px;
+}
+
+.icon {
+  flex-shrink: 0; /*Previene que el icono se reduzca de tamaño*/
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;  
 }
